@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Game Đoán Số</title>
+    <link rel="stylesheet" href="appgame.css">
+</head>
+<body>
+
+    <div class="game">
+        <h1>🎮 GAME ĐOÁN SỐ</h1>
+        <p>Hãy đoán một số từ 1 đến 100</p>
+
+        <input type="number" id="number"
+               placeholder="Nhập số của bạn">
+
+        <button onclick="checkNumber()">Đoán số</button>
+
+        <h3 id="result">Chúc bạn may mắn!</h3>
+
+        <p>Số lần đoán: <span id="count">0</span></p>
+
+        <button onclick="resetGame()">Chơi lại</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
